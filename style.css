@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Giltroy;
+    src: url(Gilroy-ExtraBold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    
+}
+
+#nav h3{
+    background-color: black;
+    color: azure;
+    padding: 15px 25px;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+
+#intro{
+    height: 40%;
+    width: 100%;
+    padding: 50px 60px;
+    
+}
+
+#intro h1{
+
+    font-size: 130px;
+    font-family: Giltroy;
+    line-height: 100px;
+    font-weight: lighter;
+    letter-spacing: -3px;
+}
+
+#place h3, h4{
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+#place {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-image{
+    height: 90%;
+    width: 100%;
+    background-image: url(vish-firefly.png);
+    background-size: cover;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    height: 45%;
+    width: 100%;
+   
+    padding: 50px 60px;
+
+}
+
+#about h2 {
+    background-color: ;
+    width: 65%;
+    font-size: 90px;
+    line-height: 100px;
+}
+
+#about-part2{
+    width: 30%;
+    height: 100%;
+    border-left: 2px solid black;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#about-part2 h3{
+    font-size: 33px;
+    font-weight: 600px;
+}
+
+#icons i{
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50px;
+    margin-right: 6px;
+}
